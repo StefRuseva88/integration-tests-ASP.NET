@@ -36,16 +36,25 @@ The project consists of the following key components:
 - Local SQL Server instance
 
 
-### Using Docker Instead of SSMS
+### Docker Integration
+You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
 
-#### Steps
+1. **Pull the SQL Server Docker image**:
 
-1. **Pull the SQL Server Docker Image**
-   ```sh
-   docker pull mcr.microsoft.com/mssql/server
-   
-# Run a SQL Server Container
+    ```bash
+    docker pull mcr.microsoft.com/mssql/server
+    ```
 
-```sh
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=YourStrong!Passw0rd' -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server
+2. **Run the Docker container**:
+
+    ```bash
+    docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Your_password123' -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server
+    ```
+
+3. **Connect to the SQL Server**:
+
+    - Use the connection string: `Server=localhost,1433;Database=YourDatabase;User Id=sa;Password=Your_password123;`
+    - Replace `YourDatabase` with the name of your database.
+
+For more information on using Docker with SQL Server, you can refer to the [official Docker documentation](https://hub.docker.com/_/microsoft-mssql-server) and the [SQL Server on Docker guide](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment).
 
