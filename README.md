@@ -1,8 +1,6 @@
-# Integration-Testing-Databases-C#
+# ASP.Net WEB API Integration with SQL Server
 
 ## This is a test project for the Front-End Technologies May 2024 Course @ SoftUni
-
-### ASP.Net WEB API Integration with SQL Server
 
 ---
 
