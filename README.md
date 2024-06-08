@@ -40,7 +40,7 @@ The project consists of the following key components:
 
 #### Steps
 
- **Pull the SQL Server Docker Image**
+1. **Pull the SQL Server Docker Image**
    ```sh
    docker pull mcr.microsoft.com/mssql/server
    
