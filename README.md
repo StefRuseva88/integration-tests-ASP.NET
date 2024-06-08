@@ -58,3 +58,13 @@ You can also run the SQL Server using a Docker image, which simplifies the setup
 
 For more information on using Docker with SQL Server, you can refer to the [official Docker documentation](https://hub.docker.com/_/microsoft-mssql-server) and the [SQL Server on Docker guide](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment).
 
+### Updating the Database
+Apply Migrations
+In the Package Manager Console within Visual Studio, run Update-Database to apply migrations to your database.
+
+### Verifying Database Creation
+Locate the Database
+In your SQL client, expand the 'Databases' folder. You should see a list of all databases on the server.
+
+### Check for the New Database
+Look for the database name specified in your ASP.NET project's connection string. If the Update-Database command executed successfully, your database should be listed here.
