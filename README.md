@@ -28,8 +28,6 @@ The project consists of the following key components:
 3. **Entity Framework**: For database operations.
 4. **NUnit**: For writing and running tests.
 
-## Lab Exercises
-
 ### Requirements
 
 - **Visual Studio** with ASP.NET
