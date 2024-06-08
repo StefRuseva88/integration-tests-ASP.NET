@@ -66,3 +66,27 @@ In your SQL client, expand the 'Databases' folder. You should see a list of all 
 
 ### Check for the New Database
 Look for the database name specified in your ASP.NET project's connection string. If the Update-Database command executed successfully, your database should be listed here.
+### Interacting with the Application's Front End and Observing Database Changes
+Access the Front End
+Open the front end of your application, a web page in your browser.
+
+### User Registration
+Use the user authentication features provided by ASP.NET Identity to register a new user and log in to the application.
+
+### Verify Account Creation in Database
+Refresh the database view, navigate to the users table (often named AspNetUsers), and verify that your new user account is listed.
+
+### Proceed with CRUD Operations
+Once logged in, perform CRUD operations as an authenticated user, reflecting a more realistic use-case scenario.
+
+### Usage
+This project provides a simple example of how to:
+
+Set up a SQL Server database and connect it to an ASP.Net WEB API.
+Use Entity Framework for database operations.
+Write integration tests using NUnit to ensure that the API interacts correctly with the database.
+### Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss your changes.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
