@@ -89,4 +89,4 @@ Write integration tests using NUnit to ensure that the API interacts correctly w
 Contributions are welcome! Please submit a pull request or open an issue to discuss your changes.
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
