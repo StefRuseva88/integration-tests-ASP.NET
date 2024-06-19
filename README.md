@@ -22,12 +22,10 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 
 ## Project Structure
 
-The project consists of the following key components:
-
-1. **ASP.Net WEB API**: The backend service.
-2. **SQL Server Database**: The relational database.
-3. **Entity Framework**: For database operations.
-4. **NUnit**: For writing and running tests.
+- **ASP.Net WEB API**: The backend service.
+- **SQL Server Database**: The relational database.
+- **Entity Framework**: For database operations.
+- **NUnit**: For writing and running tests.
 
 ### Requirements
 
