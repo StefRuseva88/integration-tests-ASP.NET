@@ -64,8 +64,6 @@ In the Package Manager Console within Visual Studio, run ``Update-Database`` to 
 ### Verifying Database Creation
 Locate the Database
 In your SQL client, expand the 'Databases' folder. You should see a list of all databases on the server.
-
-### Check for the New Database
 Look for the database name specified in your ASP.NET project's connection string. If the ``Update-Database`` command executed successfully, your database should be listed there.
 
 ### User Registration
