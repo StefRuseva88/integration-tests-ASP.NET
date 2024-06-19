@@ -66,10 +66,7 @@ Locate the Database
 In your SQL client, expand the 'Databases' folder. You should see a list of all databases on the server.
 
 ### Check for the New Database
-Look for the database name specified in your ASP.NET project's connection string. If the Update-Database command executed successfully, your database should be listed here.
-### Interacting with the Application's Front End and Observing Database Changes
-Access the Front End
-Open the front end of your application, a web page in your browser.
+Look for the database name specified in your ASP.NET project's connection string. If the ``Update-Database`` command executed successfully, your database should be listed there.
 
 ### User Registration
 Use the user authentication features provided by ASP.NET Identity to register a new user and log in to the application.
