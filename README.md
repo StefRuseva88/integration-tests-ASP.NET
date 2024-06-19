@@ -61,6 +61,10 @@ For more information on using Docker with SQL Server, you can refer to the [offi
 Apply Migrations
 In the Package Manager Console within Visual Studio, run Update-Database to apply migrations to your database.
 
+```bash
+update-database
+```
+
 ### Verifying Database Creation
 Locate the Database
 In your SQL client, expand the 'Databases' folder. You should see a list of all databases on the server.
