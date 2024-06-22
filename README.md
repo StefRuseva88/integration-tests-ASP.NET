@@ -22,7 +22,7 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 ## Project Structure
 
 
-### Requirements
+## Requirements
 
 - **Visual Studio** with ASP.NET
 - **Microsoft SQL Server Management Studio (SSMS)**
@@ -30,7 +30,7 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 - Local SQL Server instance
 
 
-### Docker Integration
+## Docker Integration
 You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
 
 1. **Pull the SQL Server Docker image**:
@@ -52,26 +52,26 @@ You can also run the SQL Server using a Docker image, which simplifies the setup
 
 For more information on using Docker with SQL Server, you can refer to the [official Docker documentation](https://hub.docker.com/_/microsoft-mssql-server) and the [SQL Server on Docker guide](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment).
 
-### Updating the Database
+## Updating the Database
 Apply Migrations
 In the Package Manager Console within Visual Studio, run ``Update-Database`` to apply migrations to your database.
 
-### Verifying Database Creation
+## Verifying Database Creation
 Locate the Database
 In your SQL client, expand the 'Databases' folder. You should see a list of all databases on the server.
 Look for the database name specified in your ASP.NET project's connection string. If the ``Update-Database`` command executed successfully, your database should be listed there.
 
-### User Registration
+## User Registration
 Use the user authentication features provided by ASP.NET Identity to register a new user and log in to the application.
 
-### Verify Account Creation in Database
+## Verify Account Creation in Database
 Refresh the database view, navigate to the users table (often named AspNetUsers), and verify that your new user account is listed.
 
-### Proceed with CRUD Operations
+## Proceed with CRUD Operations
 Once logged in, perform CRUD operations as an authenticated user, reflecting a more realistic use-case scenario.
 
-### Usage
-This project provides a simple example of how to:
+## Usage
+This project provides an example of how to:
 
 Set up a SQL Server database and connect it to an ASP.Net WEB API.
 Use Entity Framework for database operations.
@@ -79,5 +79,5 @@ Write integration tests using NUnit to ensure that the API interacts correctly w
 ### Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your changes.
 
-### License
+## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
