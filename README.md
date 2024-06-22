@@ -19,11 +19,15 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 
 ## Project Structure Overview
 The application under test is **"Homies"**: A friendly neighbourhood application. The main components are:
+1.**Homies.program.cs**: the main logic of the application.
 - **Areas**
 - **Controllers**
 - **Data**
 - **Models**
 - **Views**
+2.**Homies.Tests**: Integration tests for the application.
+- **EventControllerTests.cs**
+- **EventServiceTests.cs**
 
 ## Requirements
 - **Visual Studio** with ASP.NET
