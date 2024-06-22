@@ -18,16 +18,21 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 - **ASP.Net**: Building and testing web applications.
 
 ## Project Structure Overview
-The application under test is **"Homies"**: A friendly neighbourhood application. The main components are:
-1.**Homies.program.cs**: the main logic of the application.
-- **Areas**
-- **Controllers**
-- **Data**
-- **Models**
-- **Views**
-2.**Homies.Tests**: Integration tests for the application.
-- **EventControllerTests.cs**
-- **EventServiceTests.cs**
+
+The application under test is **"Homies"**: A friendly neighbourhood application. The main components of the project are as follows:
+
+1. **Homies.program.cs**: This file contains the main logic of the application, responsible for initializing and running the program.
+
+    - **Areas**: Organizes different functional segments of the application for modular development.
+    - **Controllers**: Handles the incoming HTTP requests and responses, managing the flow of data between the models and views.
+    - **Data**: Manages the application's data access layer, including database context and migrations.
+    - **Models**: Defines the data structures and business logic for the application.
+    - **Views**: Contains the user interface components of the application, including HTML templates and Razor views.
+
+2. **Homies.Tests**: This directory contains the integration tests for the application, ensuring that different components work together correctly.
+
+    - **EventControllerTests.cs**: Contains tests for the EventController to verify its functionality and ensure it handles requests as expected.
+    - **EventServiceTests.cs**: Includes tests for the EventService, validating the business logic and data handling within the service layer.
 
 ## Requirements
 - **Visual Studio** with ASP.NET
