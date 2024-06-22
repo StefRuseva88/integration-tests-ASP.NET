@@ -19,8 +19,8 @@ This project demonstrates how to test the integration of an ASP.Net WEB API with
 - **NUnit Tests**: Writing and executing unit and integration tests for .NET applications.
 - **ASP.Net**: Building and testing web applications.
 
-## Project Structure
-
+## Project Structure Overview
+The application under test is **"Homies"**: A friendly neighbourhood application.
 
 ## Requirements
 
