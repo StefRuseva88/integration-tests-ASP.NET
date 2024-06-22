@@ -3,7 +3,7 @@
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-## This is a test project for the Back-End Technologies March 2024 Course @ SoftUni
+## This is a test project for the Back-End Technologies January 2024 Course @ SoftUni
 
 ---
 
@@ -11,21 +11,16 @@
 
 This project demonstrates how to test the integration of an ASP.Net WEB API with a SQL Server database. It covers various aspects of integration testing using Entity Framework and NUnit.
 
-## Topics Covered
+## Technologies Used
 
 - **SQL Server**: Database management and integration.
 - **REST API**: Designing and testing RESTful services.
-- **Integration Testing**: Techniques and best practices.
 - **Entity Framework**: ORM for database interactions.
 - **NUnit Tests**: Writing and executing unit and integration tests for .NET applications.
 - **ASP.Net**: Building and testing web applications.
 
 ## Project Structure
 
-- **ASP.Net WEB API**: The backend service.
-- **SQL Server Database**: The relational database.
-- **Entity Framework**: For database operations.
-- **NUnit**: For writing and running tests.
 
 ### Requirements
 
