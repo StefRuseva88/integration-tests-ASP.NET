@@ -7,19 +7,19 @@
 
 ---
 
-## About
+## About:
 This project demonstrates how to test the integration of an ASP.Net WEB API with a SQL Server database. It covers various aspects of integration testing using Entity Framework and NUnit.
 
-## Technologies Used
+## Technologies Used:
 - **SQL Server**: Database management and integration.
 - **REST API**: Designing and testing RESTful services.
 - **Entity Framework**: ORM for database interactions.
 - **NUnit Tests**: Writing and executing unit and integration tests for .NET applications.
 - **ASP.Net**: Building and testing web applications.
 
-## Project Structure Overview
+## Project Structure Overview:
 
-The application under test is **"Homies"**: A friendly neighbourhood application. The main components of the project are as follows:
+The application under test is **"Homies"**: A friendly neighbourhood ASP.Net application. The main components of the project are as follows:
 
 1. **Homies.program.cs**: This file contains the main logic of the application, responsible for initializing and running the program.
 
