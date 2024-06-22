@@ -3,7 +3,7 @@
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-## This is a test project for the Front-End Technologies May 2024 Course @ SoftUni
+## This is a test project for the Back-End Technologies March 2024 Course @ SoftUni
 
 ---
 
