@@ -10,32 +10,32 @@
 
 ---
 
-## About
+## Project Overview
 This project demonstrates how to test the integration of an ASP.Net WEB API with a SQL Server database. It covers various aspects of integration testing using Entity Framework and NUnit.
 
-## Technologies Used
-- **SQL Server**: Database management and integration.
-- **REST API**: Designing and testing RESTful services.
-- **Entity Framework**: ORM for database interactions.
-- **NUnit Tests**: Writing and executing unit and integration tests for .NET applications.
-- **ASP.Net**: Building and testing web applications.
+## Tools and Technologies
+- **SQL Server**: Used for database management and integration.
+- **REST API**: For creating and testing RESTful services.
+- **Entity Framework**: ORM used for managing database interactions.
+- **NUnit Tests**: Framework for writing unit and integration tests for .NET.
+- **ASP.Net**: For building and testing web applications.
 
-## Project Structure Overview
+## Project Overview
 
-The application under test is **"Homies"**: A friendly neighbourhood ASP.Net application. The main components of the project are as follows:
+The project under test is called **"Homies"**, an ASP.NET application. The key components include:
 
-1. **Homies.program.cs**: This file contains the main logic of the application, responsible for initializing and running the program.
+1. **Homies.program.cs**: This file initializes and runs the application.
 
-    - **Areas**: Organizes different functional segments of the application for modular development.
-    - **Controllers**: Handles the incoming HTTP requests and responses, managing the flow of data between the models and views.
-    - **Data**: Manages the application's data access layer, including database context and migrations.
-    - **Models**: Defines the data structures and business logic for the application.
-    - **Views**: Contains the user interface components of the application, including HTML templates and Razor views.
+    - **Areas**: Groups different functional segments of the application for modularity.
+    - **Controllers**: Manages HTTP requests and responses, coordinating data flow between models and views.
+    - **Data**: Contains the data access layer, including the database context and migrations.
+    - **Models**: Defines the application's data structures and business logic.
+    - **Views**: Contains the UI elements, including HTML templates and Razor views.
 
-2. **Homies.Tests**: This directory contains the integration tests for the application, ensuring that different components work together correctly.
+2. **Homies.Tests**: This directory includes integration tests to verify that various components function correctly together.
 
-    - **EventControllerTests.cs**: Contains tests for the EventController to verify its functionality and ensure it handles requests as expected.
-    - **EventServiceTests.cs**: Includes tests for the EventService, validating the business logic and data handling within the service layer.
+    - **EventControllerTests.cs**: Contains tests for the Controller to verify correct request handling.
+    - **EventServiceTests.cs**: Tests the Service, ensuring business logic and data processing work as expected.
 
 ## Requirements
 - **Visual Studio** with ASP.NET
